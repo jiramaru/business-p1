@@ -167,7 +167,7 @@ nav ul li a:hover {
 
 .tabs .tabs-header {
   display: flex;
-
+  flex: 1;
 }
 
 .tabs .card {
@@ -179,12 +179,18 @@ nav ul li a:hover {
   margin: .2rem;
   color: gray;
   text-decoration-line: underline;
+  width: fit-content;
+}
+
+.tab-header-text{
+  width: 50%;
 }
 
 .tab-header-text p {
   width: 90%;
   margin-top: 1rem;
 }
+
 
 .img-container .img {
   width: 100%;
@@ -652,26 +658,25 @@ footer .bottom {
 .qhse-elements {
   display: flex;
   gap: 2rem;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
   row-gap: 5rem;
 }
 
-.qhse-elements .element{
+.qhse-elements .element {
   display: flex;
   width: 25rem;
   position: relative;
 }
 
-.qhse-elements .element img{
+.qhse-elements .element img {
   width: 4rem;
 }
 
-.qhse-elements .element:nth-child(1)::after, 
-.qhse-elements .element:nth-child(2)::after, 
-.qhse-elements .element:nth-child(3)::after
-{
+.qhse-elements .element:nth-child(1)::after,
+.qhse-elements .element:nth-child(2)::after,
+.qhse-elements .element:nth-child(3)::after {
   content: '';
   position: absolute;
   width: 0;
@@ -682,31 +687,36 @@ footer .bottom {
   left: 1.9rem;
 }
 
-.qhse-elements .element:nth-child(6){
-  
+.qhse-elements .element:nth-child(6) {
+
   width: 25rem;
   height: 4rem;
-  
+
   cursor: pointer;
 }
 
-.qhse-elements .element:nth-child(6)::after{
+.qhse-elements .element:nth-child(6)::after {}
 
-}
-
-.qhse-elements a{
+.qhse-elements a {
   background-color: #20458e;
   color: #fff;
   border-radius: 1rem;
 }
 
 
-.qhse-elements .element p{
+.qhse-elements .element p {
   align-content: center;
   margin-left: 1rem;
 }
 
 /* End Qhse */
+
+/* Projets */
+
+
+
+
+/* End Projets */
 
 
 /* Animations */

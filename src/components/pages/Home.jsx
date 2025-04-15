@@ -19,7 +19,7 @@ const Home = () => {
     <Action />
 
     <Qhse/>
-    
+
     </>
   )
 }

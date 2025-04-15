@@ -2,12 +2,10 @@ import React from 'react'
 
 const Action = () => {
 
-    
-
   return (
     
     <>
-        <div className="action">
+        <div className="action" >
 
                 <p className='title2'>Actionnariat SCLOG</p>
                 <p>La Société Commune de Logistique, SCLOG, est une société anonyme dont l’actionnariat est composé comme suit :</p>
