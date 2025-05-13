@@ -43,7 +43,9 @@ const Logistique = () => {
         <div className="logistique-schema">
 
           <p>La logistique pétrolière au CONGO</p>
-          <div className="schema"></div>
+          <div className="schema">
+            
+          </div>
 
         </div>
 
